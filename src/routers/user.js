@@ -8,7 +8,7 @@ const { sendWelcomeEmail, sendCancelationEmail } = require('../emails/account.js
 
 router.get('/users/me', auth, async (req, res) => {
     res.send(req.user);
-});
+}); 
 
 // router.get('/users/:id', async (req, res) => {
 //     try {
